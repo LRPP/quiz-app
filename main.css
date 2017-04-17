@@ -6,7 +6,11 @@ input {
     line-height: 2em;
 }
 
-.quesiton {
+ul {
+    list-style: none;
+}
+
+.question-box {
     margin: 5px;
     padding: 15px;
     border: 2px solid black;
@@ -15,4 +19,8 @@ input {
 
 .answer {
     line-height: 1.5em;
+}
+
+.hide {
+    display: none;
 }
